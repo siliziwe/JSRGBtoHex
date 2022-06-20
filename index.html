@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB To Hex</title>
+</head>
+<body>
+    <form id="Form1" name="Form1" method="post" novalidate="novalidate">
+        <div class="row">
+        <div class="col-lg-2">Red:</div><div class="col-md-10"><input class="form-control" id="R" maxlength="3" name="R" placeholder="0-255" required=""></div></div>
+        <div class="row"><div class="col-lg-2">Green:</div><div class="col-md-10"><input class="form-control" id="G" maxlength="3" name="G" placeholder="0-255" required=""></div>
+        </div><div class="row"><div class="col-lg-2">Blue:</div><div class="col-md-10"><input class="form-control" id="B" maxlength="3" name="B" placeholder="0-255" required=""></div></div>
+        <div class="row"><div class="col-lg-12">
+        <input type="button" class="btn btn-primary" value="Convert to Hex" onclick=RGBToHex()></div></div>
+        </form>
+
+        <script src="/code.js"></script>
+</body>
+</html>
